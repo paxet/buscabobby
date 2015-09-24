@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">Buscabobby</string>
+    <string name="menu_nuevo">New Geocache</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_acercade">About</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="acercade_titulo">About&#8230;</string>
+    <string name="acercade_msg">App developed by Javier Caballero under the \"Academic Free License v.3.0\"\n\nGeocaching is an outdoor recreational activity in which the participants use a Global Positioning System (GPS) receiver or mobile device and other navigational techniques to hide and seek containers, called \"geocaches\" or \"caches\", anywhere in the world.</string>
+    <string name="title_activity_main">Buscabobby</string>
+    <string name="tab1_titulo">Geocaches to search</string>
+    <string name="tab2_titulo">The map</string>
+    <string name="tab3_titulo">Events</string>
+    <string name="eventos_titulo">Recent events</string>
+    <string name="eventos_texto">Loading events&#8230;</string>
+    <string name="seguimiento_lista_imageviewunknown">Geocaches image</string>
+    <string name="seguimiento_lista_textviewotro">Descriptive text</string>
+    <string name="seguimiento_distancia">Distance</string>
+    <string name="seguimiento_distancia_muycerca">You almost have it!</string>
+    <string name="seguimiento_deposicion">of your position</string>
+    <string name="nuevo_titulo">Hide a new geocache</string>
+    <string name="nuevo_texto">Name for geocache</string>
+    <string name="nuevo_hint">Something representative</string>
+    <string name="nuevo_enviar">Publish!</string>
+    <string name="nuevo_error_respuestasw">Error in web service response</string>
+    <string name="nuevo_error_noposicion">There is not known GPS position, try to access the map first</string>
+    <string name="marcarloc_titulo">Localized geocache</string>
+    <string name="marcarloc_pregunta">Do you want to set as localized the</string>
+    <string name="marcaloc_error_respuestasw">It cannot be set as localized</string>
+    <string name="marcaloc_localizadocorrectamente">Well done!</string>
+    <string name="layout.seguimiento.titulo">Geocaches to find</string>
+    <string name="layout.seguimiento.sinobjetos">Loading remote geocaches&#8230;</string>
+    <string name="pref_nombre_title">Name</string>
+    <string name="pref_nombre_summary">Type your name or representative nick</string>
+    <string name="pref_nombre_default">Anonymous</string>
+    <string name="pref_servidor_title">Web Server</string>
+    <string name="pref_servidor_summary">Web server address (Name/IP:Port)</string>
+    <string name="pref_servidor_default">belerofonte.homelinux.net</string>
+    <string name="pref_intervalogps_title">GPS Refresh</string>
+    <string name="pref_intervalogps_summary">Select the rate to read GPS updates</string>
+    <string name="pref_distanciagps_title">Position diff.</string>
+    <string name="pref_distanciagps_summary">Select distance in meters to read GPS updates</string>
+
+</resources>

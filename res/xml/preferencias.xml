@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+    
+  <EditTextPreference
+    android:key="nombre"
+    android:title="@string/pref_nombre_title"
+    android:summary="@string/pref_nombre_summary"
+    android:defaultValue="@string/pref_nombre_default"/>
+  
+  <EditTextPreference
+    android:key="servidor"
+    android:title="@string/pref_servidor_title"
+    android:summary="@string/pref_servidor_summary"
+    android:defaultValue="@string/pref_servidor_default"/>
+  
+  <ListPreference
+	android:key="intervalogps"
+	android:title="@string/pref_intervalogps_title"
+	android:summary="@string/pref_intervalogps_summary"
+	android:entries="@array/tiposIntervaloGps"
+	android:entryValues="@array/tiposIntervaloGpsValores"
+	android:defaultValue="1"/>
+  
+  <ListPreference
+	android:key="distanciagps"
+	android:title="@string/pref_distanciagps_title"
+	android:summary="@string/pref_distanciagps_summary"
+	android:entries="@array/tiposDistanciaGps"
+	android:entryValues="@array/tiposDistanciaGpsValores"
+	android:defaultValue="1"/>
+
+</PreferenceScreen>

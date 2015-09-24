@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight" >
+
+    <ImageView
+        android:id="@+id/lista_icono"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/unknown"
+        android:contentDescription="@string/seguimiento_lista_imageviewunknown" />
+
+    <TextView
+        android:id="@+id/lista_titulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/lista_icono"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lista_subtitulo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/lista_titulo"
+        android:layout_toRightOf="@id/lista_icono"
+        android:gravity="left"
+        android:text="@string/seguimiento_lista_textviewotro"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

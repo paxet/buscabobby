@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tiposIntervaloGps">
+        <item>1 segundo</item>
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+    </string-array>
+    <string-array name="tiposIntervaloGpsValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tiposDistanciaGps">
+        <item>0.5 metros</item>
+        <item>1 metro</item>
+        <item>3 metros</item>
+    </string-array>
+    <string-array name="tiposDistanciaGpsValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+</resources>

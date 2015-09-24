@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">BuscaBobby</string>
+    <string name="menu_nuevo">Nuevo Geocache</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_acercade">Acerca de</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="acercade_titulo">Acerca de&#8230;</string>
+    <string name="acercade_msg">App desarrollada por Javier Caballero bajo la \"Academic Free License v.3.0\"\n\nEl Geocaching es una actividad recreacional al aire libre dónde los participantes utilizan un receptor de señales del Sistema de Posicionamiento Global (GPS por sus siglas en inglés) y otras técnicas para esconder y buscar contenedores, llamados comúnmente \"geocaches\" o \"caches\".</string>
+    <string name="title_activity_main">BuscaBobby</string>
+    <string name="tab1_titulo">Geocaches a buscar</string>
+    <string name="tab2_titulo">El mapa</string>
+    <string name="tab3_titulo">Eventos</string>
+    <string name="eventos_titulo">Eventos recientes</string>
+    <string name="eventos_texto">Cargando los eventos&#8230;</string>
+    <string name="seguimiento_lista_imageviewunknown">Imagen del geocache</string>
+    <string name="seguimiento_lista_textviewotro">Texto Descriptivo</string>
+    <string name="seguimiento_distancia">Distancia</string>
+    <string name="seguimiento_distancia_muycerca">¡Ya casi lo tienes!</string>
+    <string name="seguimiento_deposicion">de su posición</string>
+    <string name="nuevo_titulo">Esconder nuevo geocache</string>
+    <string name="nuevo_texto">Nombre para el geocache</string>
+    <string name="nuevo_hint"> Algo representativo</string>
+    <string name="nuevo_enviar">¡Publicar!</string>
+    <string name="nuevo_error_respuestasw">Error en respuesta servicio Web</string>
+    <string name="nuevo_error_noposicion">No existe posición GPS conocida, trata de acceder al mapa primero</string>
+    <string name="marcarloc_titulo">Geocache localizado</string>
+    <string name="marcarloc_pregunta">¿Quieres marcar como localizado</string>
+    <string name="marcaloc_error_respuestasw">No se pudo marcar como localizado</string>
+    <string name="marcaloc_localizadocorrectamente">¡Bien hecho!</string>
+    <string name="layout.seguimiento.titulo">Geocaches a encontrar</string>
+    <string name="layout.seguimiento.sinobjetos">Cargando geocaches remotos&#8230;</string>
+    <string name="pref_nombre_title">Nombre</string>
+    <string name="pref_nombre_summary">Escribe tu nombre, o mote representativo</string>
+    <string name="pref_nombre_default">Anónimo</string>
+    <string name="pref_servidor_title">Servidor Web</string>
+    <string name="pref_servidor_summary">Dirección del servidor (Nombre/IP:Puerto)</string>
+    <string name="pref_servidor_default">belerofonte.homelinux.net</string>
+    <string name="pref_intervalogps_title">Refresco GPS</string>
+    <string name="pref_intervalogps_summary">Selecciona la tasa de refresco para leer actualizaciones GPS</string>
+    <string name="pref_distanciagps_title">Dif. posición</string>
+    <string name="pref_distanciagps_summary">Diferencia entre posición para leer actualizaciones GPS</string>
+
+</resources>
